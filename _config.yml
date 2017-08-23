@@ -16,6 +16,7 @@ url: /
 root: /
 permalink:
 permalink_defaults:
+sonarRepoRoot: https://github.com/sonarwhal/sonar
 
 # Directory
 source_dir: src/hexo/source
@@ -84,6 +85,8 @@ deploy:
 
 # Analytics
 google_analytics: UA-101540923-1
+
+# Algolia
 appId: 0R8E5SPAFP
 apiKey: 2ee58f908e6d720c4f72a9645ce0e857
 

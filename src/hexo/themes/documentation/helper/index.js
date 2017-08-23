@@ -167,6 +167,9 @@ module.exports = function () {
             // `navs` is the menu data saved in `menu.yml`.
             return navs[1].items;
         },
+        getMarkdownLink: (link) => {
+            return link.replace(/\.html$/, '.md');
+        },
         getPagesByToCTitle: (title, pages) => {
             return pages[title];
         },

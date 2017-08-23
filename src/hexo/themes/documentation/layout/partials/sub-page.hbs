@@ -21,6 +21,13 @@
     </nav>
     <header class="page-intro">
         <h1 id="page-heading">{{page.title}}</h1>
+        <span><a target="_blank" href="{{theme.sonarRepoRoot}}/blob/master{{getMarkdownLink page.permalink}}">Edit</a></span>
+        <span>/</span>
+        <span>
+            <a target="_blank" href="{{theme.sonarRepoRoot}}/issues/new?title=[docs]%20Issue%20with%20%27%3C{{page.title}}%3E%27 ">
+                Signal
+            </a>
+        </span>
     </header>
     <section class="section">
         <div class="layout layout--sidebar">
